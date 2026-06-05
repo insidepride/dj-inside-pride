@@ -252,8 +252,17 @@ h1 {
   font-size: 24px;
 }
 
-.hero-panel span {
+.hero-panel span,
+.hero-panel a {
   color: var(--muted);
+}
+
+.hero-panel a {
+  text-decoration: none;
+}
+
+.hero-panel a:hover {
+  color: var(--red);
 }
 
 .section {
@@ -1125,7 +1134,7 @@ h3 {
         <aside class="hero-panel" aria-label="Ключевые факты">
           <p>АРХ / СПБ / МСК</p>
           <strong>+7 960 009 67 26</strong>
-          <span>VK</span>
+          <a href="https://vk.com/nikinsider" target="_blank" rel="noopener">VK</a>
         </aside>
       </section>
 
@@ -1136,7 +1145,7 @@ h3 {
         </div>
         <div class="intro-points">
           <p>Более 10 лет в клубной деятельности и event-индустрии.</p>
-          <p>Участник Тайболы, Solar Systo Togathering, Kehovision, Белого Июня и других проектов.</p>
+          <p>Участник Тайболы, Solar Systo Togathering, Kenovision, Белого Июня и других проектов.</p>
           <p>Опыт работы арт-директором, резидентство Руки Вверх! Бар и других клубах; камерные частные события и площадки с тысячной аудиторией, выступал в программах с Сергеем Жуковым, DJ Грувом, Асией и Лёшей Свиком и др.</p>
         </div>
       </section>
@@ -1160,12 +1169,12 @@ h3 {
           <article class="service-card">
             <span class="service-index">03</span>
             <h3>Клубный сет</h3>
-            <p>Коммерческая и электронная музыка, танцевальная динамика, адаптация под вкусы людей.</p>
+            <p>Коммерческая и электронная музыка, танцевальная динамика, адаптация под вкусы гостей.</p>
           </article>
           <article class="service-card">
             <span class="service-index">04</span>
             <h3>Организация</h3>
-            <p>Вечеринки, фестивали, подбор артистов, музыкальная концепция и тайминг.</p>
+            <p>Вечеринки, фестивали, подбор артистов, музыкальная концепция и Line up.</p>
           </article>
           <a class="service-card service-link" href="https://vk.com/whitenoisedj">
             <span class="service-index">05</span>
@@ -1188,8 +1197,7 @@ h3 {
           <p class="eyebrow">Качественное звучание</p>
           <h2>Не просто плейлист, а управление энергией вечера</h2>
           <p>
-            Собираю музыкальный сценарий под аудиторию, формат площадки и момент программы:
-            от welcome и фона до плотного танцпола.
+            Собираю музыкальный сценарий под аудиторию, формат площадки и момент программы: от welcome и основной программы до финального трека.
           </p>
           <div class="metrics">
             <div><strong>10+</strong><span>лет опыта</span></div>
@@ -1210,7 +1218,7 @@ h3 {
           </p>
         </div>
         <div class="about-list">
-          <p><span>Фестивали</span> Тайбола, Solar Systo Togathering, Kehovision, Белый Июнь</p>
+          <p><span>Фестивали</span> Тайбола, Solar Systo Togathering, Kenovision, Белый Июнь</p>
           <p><span>Творческий путь</span> арт-директор, клубный опыт, частные события и городские мероприятия</p>
           <p><span>Профиль</span> DJ, звукорежиссер, организатор электронных событий</p>
         </div>
@@ -1245,22 +1253,18 @@ h3 {
         </div>
         <div class="video-grid">
           <article class="video-card video-card-main">
-            <div class="video-frame has-embed">
-              <iframe loading="lazy" src="https://vk.com/clip_ext.php?oid=57115809&id=456239794" allow="autoplay; encrypted-media; fullscreen; picture-in-picture" allowfullscreen title="Видео с мероприятия"></iframe>
-            </div>
+            <a class="video-frame" href="https://disk.yandex.ru/i/8B733tf34_biew" target="_blank" rel="noopener" aria-label="Открыть первое видео"><span class="play-mark" aria-hidden="true"></span><span class="video-label">Открыть видео</span></a>
             <p>Короткий фрагмент DJ-сета.</p>
           </article>
           <article class="video-card">
-            <div class="video-frame has-embed">
-              <iframe loading="lazy" src="https://vk.com/clip_ext.php?oid=96808887&id=456241548" allow="autoplay; encrypted-media; fullscreen; picture-in-picture" allowfullscreen title="Фрагмент DJ-сета"></iframe>
-            </div>
+            <a class="video-frame" href="https://disk.yandex.ru/i/JTX-zu51Ow92jg" target="_blank" rel="noopener" aria-label="Открыть второе видео"><span class="play-mark" aria-hidden="true"></span><span class="video-label">Открыть видео</span></a>
             <p>Основной ролик с мероприятия.</p>
           </article>
           <article class="video-card">
             <div class="video-frame has-embed">
               <iframe loading="lazy" src="https://vk.com/video_ext.php?oid=57115809&id=456239750" allow="autoplay; encrypted-media; fullscreen; picture-in-picture" allowfullscreen title="Атмосфера площадки"></iframe>
             </div>
-            <p>Свет, звук и атмосфера площадки.</p>
+            <p>Звук, свет и энергия.</p>
           </article>
         </div>
       </section>
@@ -1279,7 +1283,7 @@ h3 {
           <article>
             <span>2</span>
             <h3>Музыкальная карта</h3>
-            <p>Welcome, пики вечера, танцевальные блоки, специальные треки и стоп-лист.</p>
+            <p>Welcome, основные моменты вечера, танцевальные блоки, ваш плей-лист и стоп-лист.</p>
           </article>
           <article>
             <span>3</span>
@@ -1289,7 +1293,7 @@ h3 {
           <article>
             <span>4</span>
             <h3>Событие</h3>
-            <p>Работа в моменте, контакт с ведущим и создание атмосферы и динамика.</p>
+            <p>Работа в моменте, контакт с ведущим, создание атмосферы и динамика.</p>
           </article>
         </div>
       </section>
@@ -1484,6 +1488,7 @@ h3 {
     </script>
   </body>
 </html>
+
 
 
 
